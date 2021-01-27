@@ -1,7 +1,6 @@
 # Maintainer: Solomon Choina<shlomochoina@gmail.com>
 # Contributor: Vlad <ejiek at mail.ru>
 # Contributor: intrnl
-# Contributor: bittin
 # Contributor: Vu Duc Nguyen
 
 pkgname=microsoft-edge-dev-bin
@@ -27,7 +26,7 @@ optdepends=('libpipewire02: WebRTC desktop sharing under Wayland'
             'xdg-utils')
 options=(!strip !zipman)
 _channel=dev
-source=("https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/${_pkgname}_${pkgver}-1_amd64.deb"
+source=("https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/${_pkgname}_${pkgver}-${pkgrel}_amd64.deb"
         "microsoft-edge-dev.sh"
         "Microsoft Standard Application License Terms - Standalone (free) Use Terms.pdf")
 sha256sums=('2a282b45011a0a3b111614e4f4c9d6c492a817d5b9955c159314e6ebba5cc6b1'
