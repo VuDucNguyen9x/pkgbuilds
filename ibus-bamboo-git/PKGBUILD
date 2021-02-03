@@ -19,7 +19,7 @@
 # Contributor: Vu Duc Nguyen
 
 pkgname=ibus-bamboo-git
-pkgver=0.6.8.fa821d8
+pkgver=0.6.8.f3019b9
 pkgrel=1
 pkgdesc='A Vietnamese IME for IBus'
 arch=(any)
